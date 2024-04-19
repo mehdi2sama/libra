@@ -12,7 +12,7 @@ jobs:
         - ci/cargo-try-install.sh cargo-audit
       script: ci/checks.sh
     - stage: test
-      rust: nightly-2019-07-19
+      rust: nightly-2019-04.11
       script: ci/build-all.sh
     - stage: test
       language: minimal
